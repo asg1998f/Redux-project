@@ -40,4 +40,3 @@ export const login = createAsyncThunk("auth/login",async(user)=>{
 
 
 export default authSlice.reducer;
-  
