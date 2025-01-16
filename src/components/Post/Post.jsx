@@ -10,9 +10,9 @@ const Post = () => {
     }
   return (
     <div>
-        {posts.map(post=>{
-            return (<div key={post.id}>
-                <Link to={"/postdetail/"+post.id} >
+        {posts?.map(post=>{
+            return (<div key={post._id}>
+                <Link to={"/postdetail/"+post._id} >
                 <p>Title: {post.title}</p>
                 </Link>
             </div>)
