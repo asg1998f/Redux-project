@@ -4,7 +4,7 @@ Este proyecto es una red social en la que los usuarios se registrarán, loguear�
 
 ## Características del proyecto
 
-⭕️Registro y Login
+⭕️ Registro y Login
 
 ⭕️ Create y view Posts
 
