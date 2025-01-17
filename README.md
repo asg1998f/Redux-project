@@ -90,7 +90,7 @@ Currently, two official plugins are available:
 * [React](https://sequelize.org/) - El framework web usado
 * [Node](https://nodejs.org/es) - Entorno para ejecutar JavaScript fuera del navegador
 * [VSC](https://code.visualstudio.com/) - Programa de programación
-* [Vercel](https://www.postman.com/) - Programa prueba enrutamiento
+* [Vercel](https://www.postman.com/) - Despliegue
 * [MongoDB](https://www.mongodb.com/es) - Programa de gestión de datos
 * [JS](https://developer.mozilla.org/es/docs/Web/JavaScript) - Lenguaje de Programación
 * [ExpressJS](https://expressjs.com/) - Framework de Backend
