@@ -8,9 +8,9 @@ Este proyecto es una red social en la que los usuarios se registrarán, loguear�
 
 ⭕️ Create y view Posts
 
-⭕️ Search de Post y user
+⭕️ Search de Post
 
-⭕️ Create y view comment 
+⭕️ View de User 
 
 ⭕️ Diseño de página con Sass
 
