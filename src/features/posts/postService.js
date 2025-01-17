@@ -22,13 +22,42 @@ const AddPost = async (post) => {
   })
   return res.data
 }
+const like = async (_id) => {
+  const token = localStorage.getItem("token");
+  const res = await axios.put(API_URL + "/like/"+_id,{}, {
+      headers: {
+        authorization: token,
+      },
+    } );
+  return res.data;
+};
+ const unlike = async (_id) => {
+    const token = localStorage.getItem("token");
+    const res = await axios.put(API_URL + "/unlike/"+_id,{}, {
+        headers: {
+          authorization: token,
+        },
+      } )
+    return res.data;
+  };
+  const addComment = async (_id) => {
+    const token = JSON.parse(localStorage.getItem("token"));
+    const res = await axios.post(API_URL + "/addComment"+_id, {}, {
+      headers: { authorization: token }
+    })
+    return res.data
+  }
+
 
 
 const postService = {
   getAll,
   getById,
   getByTitle,
-  AddPost
+  AddPost,
+  like,
+  unlike, 
+  addComment
 };
 
 export default postService;

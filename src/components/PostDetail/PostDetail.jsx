@@ -15,6 +15,7 @@ const PostDetail = () => {
     <div>
         <p>Title: {post.title}</p>
         <p>Content: {post.content}</p>
+        <p>Likes: {post.likes?.length}</p>
     </div>
   )
 }
